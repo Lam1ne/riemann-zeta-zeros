@@ -8,10 +8,23 @@ This project allows you to:
 
 ### 1. Compute Zeros (C++)
 
-Compile and run:
+Compile:
 ```sh
 g++ -O3 -fopenmp riemann_zero.cpp -o riemann_zero.exe
+```
+
+Run with default parameters:
+```sh
 ./riemann_zero.exe
+```
+
+Or specify interval, step, and tolerance:
+```sh
+./riemann_zero.exe <t_start> <t_end> [step] [tolerance]
+```
+Example:
+```sh
+./riemann_zero.exe 14 30 0.005 1e-15
 ```
 The found zeros are saved in `zeros.txt` and Z(t) values in `zeta_plot.csv`.
 
