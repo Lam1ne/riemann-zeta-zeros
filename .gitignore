@@ -1,0 +1,25 @@
+# Fichiers binaires et objets C++
+*.exe
+*.o
+*.obj
+
+# Fichiers temporaires et de logs
+*.log
+*.tmp
+
+# Fichiers de données générés
+zeta_plot.csv
+zeta_grid.csv
+zeros.txt
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Environnements virtuels Python
+.venv/
+env/
+venv/
+
+# Fichiers de configuration spécifiques à VSCode
+.vscode/
